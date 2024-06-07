@@ -1,0 +1,51 @@
+2024-06-05 19:43:10 - root - WARNING: - > training arguments:
+2024-06-05 19:43:10 - root - WARNING: - >>> save_path: ./saved_models
+2024-06-05 19:43:10 - root - WARNING: - >>> device: 1
+2024-06-05 19:43:10 - root - WARNING: - >>> seed: 42
+2024-06-05 19:43:10 - root - WARNING: - >>> batch_size: 4
+2024-06-05 19:43:10 - root - WARNING: - >>> epochs: 2
+2024-06-05 19:43:10 - root - WARNING: - >>> showtime: 2000
+2024-06-05 19:43:10 - root - WARNING: - >>> base_encoder_lr: 1e-05
+2024-06-05 19:43:10 - root - WARNING: - >>> longformer_base_encoder_lr: 1e-05
+2024-06-05 19:43:10 - root - WARNING: - >>> finetune_lr: 0.001
+2024-06-05 19:43:10 - root - WARNING: - >>> warm_up: 0.05
+2024-06-05 19:43:10 - root - WARNING: - >>> weight_decay: 1e-05
+2024-06-05 19:43:10 - root - WARNING: - >>> early_num: 5
+2024-06-05 19:43:10 - root - WARNING: - >>> num_tags: 5
+2024-06-05 19:43:10 - root - WARNING: - >>> threshold: 0.3
+2024-06-05 19:43:10 - root - WARNING: - >>> hidden_size: 128
+2024-06-05 19:43:10 - root - WARNING: - >>> layers: 2
+2024-06-05 19:43:10 - root - WARNING: - >>> is_bi: False
+2024-06-05 19:43:10 - root - WARNING: - >>> bert_output_size: 768
+2024-06-05 19:43:10 - root - WARNING: - >>> mlp_size: 512
+2024-06-05 19:43:10 - root - WARNING: - >>> scale_factor: 2
+2024-06-05 19:43:10 - root - WARNING: - >>> dropout: 0.7
+2024-06-05 19:43:10 - root - WARNING: - >>> max_grad_norm: 1.0
+2024-06-05 19:43:10 - root - WARNING: - >>> num_heads: 4
+2024-06-05 19:43:10 - root - WARNING: - >>> att_dropout: 0.1
+2024-06-05 19:43:10 - root - WARNING: - >>> mrc_dropout: 0.7
+2024-06-05 19:43:10 - root - WARNING: - >>> lstm_dropout: 0.4
+2024-06-05 19:43:10 - root - WARNING: - >>> classifier_act_func: gelu
+2024-06-05 19:43:10 - root - WARNING: - >>> classifier_intermediate_hidden_size: 128
+2024-06-05 19:43:10 - root - WARNING: - >>> weight_start: 1.0
+2024-06-05 19:43:10 - root - WARNING: - >>> weight_end: 1.0
+2024-06-05 19:43:10 - root - WARNING: - >>> weight_span: 0.1
+2024-06-05 19:43:11 - root - WARNING: - Data loaded.
+2024-06-05 19:43:11 - root - WARNING: - Initializing model...
+2024-06-05 19:43:16 - root - WARNING: - Model initialized.
+2024-06-05 19:43:16 - root - WARNING: - Running epoch: 0
+2024-06-05 21:18:40 - root - WARNING: - ********************best********************
+2024-06-05 21:18:40 - root - WARNING: - ********************the performance in valid set...********************
+2024-06-05 21:18:40 - root - WARNING: - running time: 123.94591689109802
+2024-06-05 21:18:40 - root - WARNING: - total batch: 9969
+2024-06-05 21:18:40 - root - WARNING: - total pair f1:	0.3541
+2024-06-05 21:20:43 - root - WARNING: - ********************the performance in test set...********************
+2024-06-05 21:20:43 - root - WARNING: - total pair f1:	0.3402
+2024-06-05 21:20:43 - root - WARNING: - Running epoch: 1
+2024-06-05 22:56:39 - root - WARNING: - ********************best********************
+2024-06-05 22:56:39 - root - WARNING: - ********************the performance in valid set...********************
+2024-06-05 22:56:39 - root - WARNING: - running time: 133.00954127311707
+2024-06-05 22:56:39 - root - WARNING: - total batch: 19938
+2024-06-05 22:56:39 - root - WARNING: - total pair f1:	0.3995
+2024-06-05 22:58:48 - root - WARNING: - ********************the performance in test set...********************
+2024-06-05 22:58:48 - root - WARNING: - total pair f1:	0.4035
